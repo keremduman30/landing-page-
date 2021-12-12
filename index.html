@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Project</title>
+    <!--google  fontlar  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- font awesame -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- tabletler -->
+    <link rel="stylesheet" media="(max-width:768px)" href="/css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="/css/mobile.css">
+</head>
+
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="text-center">kerem duman </h1>
+                <ul>
+                    <li><a href="#home">Anasayfa</a></li>
+                    <li><a href="#training">Eğitimler</a></li>
+                    <li><a href="#courses">Kurslar</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <img src="/images/berwari.jpg" width="300px" height="300px" alt="kerem duman">
+        <div class="name text-center">
+            <h2 class="heading-big">Kerem Duman</h2>
+            <p>Software Engineer | Founder of Yazılım Muhendisliği</p>
+        </div>
+        <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+    </section>
+    <!-- egitim -->
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Eğitimler </h3>
+        <div class="items">
+
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Sınıf İçi Eğitimler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dignissimos?</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online Eğitimler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dignissimos?</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Konferanslar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dignissimos?</p>
+            </article>
+        </div>
+    </section>
+    <section id="courses">
+        <h3 class="heading-medium text-center">Kurslar</h3>
+        <div class="container">
+            <div class="courses">
+                <!-- course 1 -->
+                <article class="course">
+                    <div class="course-image">
+                        <img src="/images/java.jpg" alt="pyhton">
+                        <span>%90 indirim</span>
+
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Komple Java Gelistirme Kursu
+                        </div>
+                        <div class="decription">
+                            Komple Java Gelistirme Kursu | Sıfırdan Ogrenin
+                        </div>
+                        <div class="instructor">Mustafa Murat Coskun | Yazılım Bilimi</div>
+                        <div class="raiting">4.6 | (7000 oylama)</div>
+
+                    </div>
+                </article>
+                <!-- course 2 -->
+                <article class="course">
+                    <div class="course-image">
+                        <img src="/images/python.jpg" alt="pyhton">
+                        <span>%90 indirim</span>
+
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Komple Phyton Gelistirme Kursu
+                        </div>
+                        <div class="decription">
+                            Komple Phyton Gelistirme Kursu | Sıfırdan Ogrenin
+                        </div>
+                        <div class="instructor">Mustafa Murat Coskun | Yazılım Bilimi</div>
+                        <div class="raiting">4.6 | (7000 oylama)</div>
+
+                    </div>
+                </article>
+                <!-- course 3 -->
+                <article class="course">
+                    <div class="course-image">
+                        <img src="/images/javascript.jpg" alt="pyhton">
+                        <span>%90 indirim</span>
+
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Komple Js Gelistirme Kursu
+                        </div>
+                        <div class="decription">
+                            Komple Js Gelistirme Kursu | Sıfırdan Ogrenin
+                        </div>
+                        <div class="instructor">Mustafa Murat Coskun | Yazılım Bilimi</div>
+                        <div class="raiting">4.6 | (7000 oylama)</div>
+
+                    </div>
+                </article>
+            </div>
+        </div>
+
+    </section>
+    <!-- footer -->
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contack-form">
+            <form action="">
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="isim">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="email">Mesaj</label>
+                    <textarea name="mesaj" id="mesaj" class="form-control" placeholder="mesajınız" rows="5"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block">Gonder</button>
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+
+            </form>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+/* burada parca parca styler yazki birden fazla kulllanabilesin */
+
+.text-center{
+    text-align: center;
+    
+}
+
+
+.heading-small{
+    font-size: 1.25rem;
+
+}
+.heading-medium{
+    font-size: 1.5rem;
+    
+
+}
+.heading-big{
+    font-size: 1.75rem;
+    
+}
+
+/* buttons */
+.btn{
+    margin-top:  1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.8px;
+}
+.btn-primary{
+    background-color: #336ea2;
+
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #336ea2;
+    border: 1px solid #336ea2;
+    
+}
+.btn-dark{
+    background-color: #333;
+
+}
+.btn-dark:hover{
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+.btn-block{
+    width: 100%;
+    text-align: center ;
+}
+
+/* Colors  */
+
+.bg-dark-blue{
+    background:#062e51;
+
+}
+.bg-light-blue{
+    background:#336ea2;
+}
+
+/* forms */
+.form-group{
+    padding: 0.25rem 0;
+}
+
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+}
+
+.form-group label{
+    display: block;
+}
+
+
+.container{
+     max-width: 1100px;
+     margin: 0 auto;
+}
+/* training */
+#training{
+    color: #fff;
+    padding: 1rem;
+}
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#training  .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+   
+}
+#training  .item:hover{
+  color: red;
+  opacity: 0.8;
+   
+}
+
